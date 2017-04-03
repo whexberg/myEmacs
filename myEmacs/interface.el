@@ -1,7 +1,7 @@
 (defun myEmacs/configure-interface ()
 
-(custom-set-variables
- '(initial-frame-alist (quote ((fullscreen . maximized)))))
+  (custom-set-variables
+   '(initial-frame-alist (quote ((fullscreen . maximized)))))
   
 
   (add-to-list 'custom-theme-load-path
@@ -14,9 +14,12 @@
 
   (menu-bar-mode -1)
 
-  (tool-bar-mode -1)
+  (when (display-graphic-p)
+    (tool-bar-mode -1)
+    (scroll-bar-mode -1)
+    )
 
-  (scroll-bar-mode -1)
+
 
   (set-default 'cursor-type 
                'box)
