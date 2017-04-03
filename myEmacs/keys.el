@@ -3,4 +3,6 @@
   (global-set-key (kbd "S-C-<down>") 'move-line-down)
 
   (global-set-key (kbd "S-M-<up>") 'move-region-up)
-  (global-set-key (kbd "S-M-<down>") 'move-region-down))
+  (global-set-key (kbd "S-M-<down>") 'move-region-down)
+
+  (global-set-key (kbd "C-,") 'neotree-toggle))
