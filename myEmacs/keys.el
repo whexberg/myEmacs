@@ -7,6 +7,8 @@
 
   (global-set-key (kbd "C-\\") 'neotree-toggle)
 
+  (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+  
   (global-set-key (kbd "M-x") 'helm-M-x)
   (global-set-key (kbd "C-x b") 'helm-mini)
   (global-set-key (kbd "C-x C-b") 'helm-buffers-list)
@@ -14,4 +16,13 @@
   (global-set-key (kbd "C-x C-r") 'helm-recentf)
   (global-set-key (kbd "M-y") 'helm-show-kill-ring)
 
+  (global-set-key (kbd "C->") 'mc/mark-next-like-this)
+  (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+  (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+
+  (global-set-key (kbd "M-/") 'undo-tree-visualize)
+
+  (global-set-key (kbd "C-M-z") 'switch-window)
+
+  (global-set-key (kbd "C-M-.") 'ace-jump-mode)
   )
