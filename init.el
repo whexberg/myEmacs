@@ -4,6 +4,7 @@
 (load-file "~/.emacs.d/myEmacs/interface.el")
 (load-file "~/.emacs.d/myEmacs/keys.el")
 (load-file "~/.emacs.d/myEmacs/backups.el")
+(load-file "~/.emacs.d/myEmacs/filetypes.el")
 (load-file "~/.emacs.d/myEmacs/startup.el")
 
 (custom-set-variables

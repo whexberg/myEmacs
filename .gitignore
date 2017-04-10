@@ -1,2 +1,7 @@
-/elpa/*
-elpa/
+./elpa/*
+elpa/*
+.mc-lists.el
+ac-comphist.el
+ac-comphist.dat
+auto-save-list/
+recentf

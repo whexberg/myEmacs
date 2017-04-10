@@ -25,4 +25,9 @@
   (global-set-key (kbd "C-M-z") 'switch-window)
 
   (global-set-key (kbd "C-M-.") 'ace-jump-mode)
+
+  (global-set-key (kbd "C-/") 'comment-region)
+  (global-set-key (kbd "C-?") 'uncomment-region)
+
+  (global-set-key (kbd "C-S-d") 'duplicate-current-line-or-region)
   )

@@ -18,11 +18,12 @@
 ;;  (use-package "workgroups2")
   ;;Language modes
   (use-package "ac-js2")
+  (use-package "ng2-mode")
   (use-package "csharp-mode")
   (use-package "js2-mode")
   (use-package "less-css-mode")
   (use-package "markdown-mode")
-  (use-package "php-mode")
+;;  (use-package "php-mode")
   (use-package "scss-mode")
   (use-package "sass-mode")
   (use-package "typescript-mode")
