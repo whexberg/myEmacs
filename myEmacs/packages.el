@@ -14,26 +14,22 @@
   (use-package "undo-tree")
   (use-package "switch-window")
   (use-package "monokai-theme")
-  ;;Navigation
-;;  (use-package "workgroups2")
   ;;Language modes
   (use-package "ac-js2")
   (use-package "ng2-mode")
+  (use-package "handlebars-mode")
   (use-package "csharp-mode")
   (use-package "js2-mode")
+  (use-package "emmet-mode")
   (use-package "less-css-mode")
   (use-package "markdown-mode")
-;;  (use-package "php-mode")
   (use-package "scss-mode")
   (use-package "sass-mode")
   (use-package "typescript-mode")
   (use-package "web-mode")
-  ;;Programming tools
-  (use-package "projectile")
   ;;File-system
-;;  (use-package "ranger")
+  (use-package "tabbar")
   (use-package "neotree")
-;;  (use-package "ztree")
   ;;Color themes
 ;;  (use-package "material-theme")
   ;;myTerminal's packages
@@ -59,10 +55,8 @@
 ;;  (use-package "skewer-mode")
 ;;  (use-package "restclient")
   ;;Super powers
-;;  (use-package "which-key")
-  (use-package "smex")
+;;  (use-package "smex")
   (use-package "helm")
-  (use-package "helm-projectile")
   ;;Visual tweaks
   (use-package "powerline")
   ;;Networking tools

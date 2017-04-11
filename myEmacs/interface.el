@@ -8,7 +8,7 @@
 		"~/.emacs.d/other-plugins/replace-colorthemes"))
 
   (load-theme 'monokai t)
-;;  (enable-theme 'monokai-theme)
+  ;;  (enable-theme 'monokai-theme)
 
   (setq frame-title-format "Emacs")
 
@@ -27,7 +27,7 @@
 
   ;; current line highlighting
   (global-hl-line-mode 1)
-  (set-face-background 'hl-line "#383838")
+  (set-face-background 'hl-line "#000")
   (set-face-foreground 'highlight nil)
 
   (require 'powerline)
@@ -46,4 +46,9 @@
   (column-enforce-mode)
   (electric-pair-mode)
   ;;  (windmove-default-keybindings)
+  (delete-selection-mode 1)
+
+  (tabbar-mode t)
+  (setq tabbar-use-images nil)
+  (setq tabbar-cycle-scope 'tabs)
   )

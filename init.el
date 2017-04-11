@@ -1,9 +1,10 @@
+(load-file "~/.emacs.d/myEmacs/backups.el")
 (load-file "~/.emacs.d/myEmacs/repos.el")
 (load-file "~/.emacs.d/myEmacs/packages.el")
-(load-file "~/.emacs.d/myEmacs/moveline.el")
+(load-file "~/.emacs.d/myEmacs/functions.el")
 (load-file "~/.emacs.d/myEmacs/interface.el")
+(load-file "~/.emacs.d/myEmacs/tabbar.el")
 (load-file "~/.emacs.d/myEmacs/keys.el")
-(load-file "~/.emacs.d/myEmacs/backups.el")
 (load-file "~/.emacs.d/myEmacs/filetypes.el")
 (load-file "~/.emacs.d/myEmacs/startup.el")
 

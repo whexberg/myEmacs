@@ -20,8 +20,6 @@
   (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
   (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
-  (global-set-key (kbd "M-/") 'undo-tree-visualize)
-
   (global-set-key (kbd "C-M-z") 'switch-window)
 
   (global-set-key (kbd "C-M-.") 'ace-jump-mode)
@@ -30,4 +28,21 @@
   (global-set-key (kbd "C-?") 'uncomment-region)
 
   (global-set-key (kbd "C-S-d") 'duplicate-current-line-or-region)
+
+  (global-set-key (kbd "M-S-<left>")  'windmove-left)
+  (global-set-key (kbd "M-S-<right>") 'windmove-right)
+  (global-set-key (kbd "M-S-<up>")    'windmove-up)
+  (global-set-key (kbd "M-S-<down>")  'windmove-down)
+
+  (global-set-key (kbd "M-<right>")  'tabbar-forward)
+  (global-set-key (kbd "M-<left>")  'tabbar-backward)
+  (global-set-key (kbd "M-<up>")  'tabbar-forward-group)
+  (global-set-key (kbd "M-<down>")  'tabbar-backward-group)
+
+  (global-set-key (kbd "C-T")  'shell)
+
+  (global-set-key (kbd "C-_")  'undo-tree-undo)
+  (global-set-key (kbd "C-z")  'undo-tree-undo)
+  (global-set-key (kbd "C-S-z")  'undo-tree-redo)
+  (global-set-key (kbd "C-M-S-z") 'undo-tree-visualize)  
   )
