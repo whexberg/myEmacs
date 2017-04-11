@@ -44,5 +44,11 @@
   (global-set-key (kbd "C-_")  'undo-tree-undo)
   (global-set-key (kbd "C-z")  'undo-tree-undo)
   (global-set-key (kbd "C-S-z")  'undo-tree-redo)
-  (global-set-key (kbd "C-M-S-z") 'undo-tree-visualize)  
+  (global-set-key (kbd "C-M-S-z") 'undo-tree-visualize)
+  
+  (global-set-key (kbd "<f5>") 'revert-buffer)
+  (global-set-key (kbd "C-<f5>") 'eval-buffer)
+
+  (global-set-key (kbd "C-c C-c C-c") 'kill-other-buffers)
+  
   )

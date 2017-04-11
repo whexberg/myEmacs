@@ -16,7 +16,7 @@
   (use-package "monokai-theme")
   ;;Language modes
   (use-package "ac-js2")
-  (use-package "ng2-mode")
+;;  (use-package "ng2-mode")
   (use-package "handlebars-mode")
   (use-package "csharp-mode")
   (use-package "js2-mode")

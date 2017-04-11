@@ -51,4 +51,4 @@
   (tabbar-mode t)
   (setq tabbar-use-images nil)
   (setq tabbar-cycle-scope 'tabs)
-  )
+  (add-hook 'shell-mode-hook 'tabbar-local-mode))
