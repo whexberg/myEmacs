@@ -3,6 +3,7 @@
   (setq auto-mode-alist (append '(("\\.htm$" . web-mode)
 				  ("\\.html$" . web-mode)
 				  ("\\.html$" . emmet-mode)
+				  ("\\.php$" . web-mode)
 				  ("\\.js$" . js2-mode)
 				  ("\\.scss$" . scss-mode)
 				  ("\\.sass$" . sass-mode)

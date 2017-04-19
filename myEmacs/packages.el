@@ -8,6 +8,7 @@
   
   ;; then define packages you use
   (use-package "multiple-cursors")
+  (use-package "which-key")
   (use-package "auto-complete")
   (use-package "ace-jump-mode")
   (use-package "nlinum")
@@ -59,6 +60,7 @@
   (use-package "helm")
   ;;Visual tweaks
   (use-package "powerline")
+  (use-package "projectile")
   ;;Networking tools
 ;;  (use-package "mew")
 ;;  (use-package "jabber")

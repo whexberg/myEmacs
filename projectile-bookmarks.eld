@@ -1,0 +1,1 @@
+("~/Development/tcheck-wordpress/tcheck-wptheme/" "~/.emacs.d/" "~/Development/csc131/")
