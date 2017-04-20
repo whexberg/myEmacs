@@ -51,4 +51,9 @@
 
   (global-set-key (kbd "C-c C-c C-c") 'kill-other-buffers)
 
-  (global-set-key [escape] 'keyboard-quit))
+  (global-set-key [escape] 'keyboard-quit)
+  
+  (global-set-key (kbd "M-o") 'helm-projectile)
+  (global-set-key (kbd "M-p") 'neotree-projectile-action)
+  (global-set-key (kbd "C-M-p") 'projectile-switch-project))
+

@@ -2,6 +2,8 @@
 
   (setq auto-mode-alist (append '(("\\.htm$" . web-mode)
 				  ("\\.html$" . web-mode)
+				  ("\\.html$" . emmet-mode)
+				  ("\\.php$" . web-mode)
 				  ("\\.js$" . web-mode)
 				  ("\\.scss$" . scss-mode)
 				  ("\\.sass$" . sass-mode)
@@ -9,6 +11,5 @@
 				  ("\\.markdown$" . markdown-mode)
 				  ("\\.md$" . markdown-mode))
 				auto-mode-alist))
-
   (add-hook 'web-mode-hook  'emmet-mode))
 
