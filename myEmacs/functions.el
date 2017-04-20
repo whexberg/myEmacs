@@ -70,3 +70,10 @@ there's a region, all lines that region covers will be duplicated."
     (mapc 'kill-buffer 
           (delq (current-buffer) 
                 (remove-if-not 'buffer-file-name (buffer-list)))))
+
+(defun nuke-all-buffers ()
+  (interactive)
+  (mapcar 'kill-buffer (buffer-list))
+  (delete-other-windows))
+
+(global-set-key (kbd "C-S-k") 'nuke-all-buffers)

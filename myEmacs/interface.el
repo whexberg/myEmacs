@@ -13,12 +13,17 @@
   (setq frame-title-format "Emacs")
 
   (when (display-graphic-p)
-    (menu-bar-mode -1)
+    (menu-bar-mode 1)
     (tool-bar-mode -1)
     (scroll-bar-mode -1)
     )
 
+  (neotree-show)
 
+  (setq ido-enable-flex-matching t)
+  (setq ido-everywhere t)
+  (ido-mode)
+  
   (global-nlinum-mode 1)
   
   (set-default-font "Liberation Mono 10" nil t)
@@ -40,7 +45,7 @@
   
   ;; stuff
   (ido-mode)
-  (winner-mode t)
+  (winner-mode 1)
   (show-paren-mode)
   (column-number-mode)
   (column-enforce-mode)

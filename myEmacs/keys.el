@@ -50,5 +50,5 @@
   (global-set-key (kbd "C-<f5>") 'eval-buffer)
 
   (global-set-key (kbd "C-c C-c C-c") 'kill-other-buffers)
-  
-  )
+
+  (global-set-key [escape] 'keyboard-quit))

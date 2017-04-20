@@ -1,3 +1,5 @@
+(setq inhibit-startup-message t)
+
 (load-file "~/.emacs.d/myEmacs/backups.el")
 (load-file "~/.emacs.d/myEmacs/repos.el")
 (load-file "~/.emacs.d/myEmacs/packages.el")

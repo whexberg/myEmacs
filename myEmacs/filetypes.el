@@ -2,8 +2,7 @@
 
   (setq auto-mode-alist (append '(("\\.htm$" . web-mode)
 				  ("\\.html$" . web-mode)
-				  ("\\.html$" . emmet-mode)
-				  ("\\.js$" . js2-mode)
+				  ("\\.js$" . web-mode)
 				  ("\\.scss$" . scss-mode)
 				  ("\\.sass$" . sass-mode)
 				  ("\\.text$" . markdown-mode)
