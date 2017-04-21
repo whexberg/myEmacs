@@ -24,7 +24,7 @@
 
   (global-set-key (kbd "C-M-.") 'ace-jump-mode)
 
-  (global-set-key (kbd "C-/") 'comment-region)
+  (global-set-key (kbd "C-/") 'toggle-comment-on-line)
   (global-set-key (kbd "C-?") 'uncomment-region)
 
   (global-set-key (kbd "C-S-d") 'duplicate-current-line-or-region)
@@ -52,6 +52,13 @@
   (global-set-key (kbd "C-c C-c C-c") 'kill-other-buffers)
 
   (global-set-key [escape] 'keyboard-quit)
+
+  (global-set-key (kbd "C-S-k") 'nuke-all-buffers)
+
+  (global-set-key (kbd "C-S-o") 'theme-looper-enable-next-theme)
+
+  (global-set-key (kbd "<f8>") '(lambda() (interactive) (load-file "~/.emacs.d/init.el")))
+
   
   (global-set-key (kbd "M-o") 'helm-projectile)
   (global-set-key (kbd "M-p") 'neotree-projectile-action)

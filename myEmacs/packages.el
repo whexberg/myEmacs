@@ -8,11 +8,14 @@
   (setq use-package-always-ensure t)
 
   
+  (use-package try)
   (use-package helm)
   (use-package nlinum)
   (use-package undo-tree)
   (use-package powerline)
+  (use-package theme-looper)
   (use-package indent-guide)
+  (use-package all-the-icons)
   (use-package auto-complete)
   (use-package ace-jump-mode)
   (use-package switch-window)

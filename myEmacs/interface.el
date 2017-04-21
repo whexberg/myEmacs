@@ -53,6 +53,11 @@
   ;;  (windmove-default-keybindings)
   (delete-selection-mode 1)
 
+  (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+  (autoload 'neotree "neotree" "" t) 
+  (setq neo-window-width 40)
+  (setq neo-persist-show t)
+  
   (tabbar-mode t)
   (setq tabbar-use-images nil)
   (setq tabbar-cycle-scope 'tabs)

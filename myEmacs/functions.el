@@ -76,4 +76,8 @@ there's a region, all lines that region covers will be duplicated."
   (mapcar 'kill-buffer (buffer-list))
   (delete-other-windows))
 
-(global-set-key (kbd "C-S-k") 'nuke-all-buffers)
+(defun toggle-comment-on-line ()
+  "comment or uncomment current line"
+  (interactive)
+  (comment-or-uncomment-region (line-beginning-position) (line-end-position))
+  (next-line))
