@@ -30,6 +30,7 @@
   (use-package sass-mode)
   (use-package emmet-mode)
   (use-package csharp-mode)
+  (use-package web-beautify)
   (use-package less-css-mode)
   (use-package markdown-mode)
   (use-package handlebars-mode)

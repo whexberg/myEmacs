@@ -18,7 +18,8 @@
     (scroll-bar-mode -1)
     )
 
-  (neotree-show)
+  (setq neo-smart-open t)
+;;  (neotree-show)
 
   (setq ido-enable-flex-matching t)
   (setq ido-everywhere t)
